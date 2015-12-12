@@ -1,11 +1,30 @@
+
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <meta name="keywords" content="voidLab, ucla, dma, feminism, women, design, media arts">
+
+  <meta name="description" content="">
+  <meta name="robots" content="all">
+  <meta name="author" content="voidLab">
+  <meta name="copyright" content="&copy; 2015 voidLab">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/favicon.gif" type="image/x-icon" />
+
+  <title>voidLab</title>
+
   <style>
   	body {
       font-family: Arial Black, Arial Sans-Serif;
       text-transform: uppercase;
       letter-spacing: .3em;
+      padding-bottom: 0;
+      margin-bottom: 0;
     }
 
   	img { display: inline-block; }
@@ -13,9 +32,13 @@
     .blob {
       color: white;
       background-image: url('blob-accent.png');
-
       width: 173px;
       height: 170px;
+    }
+
+    .notblob {
+      padding-left: 50px;
+      padding-right: 50px;
     }
 
     .blob a {
@@ -59,6 +82,7 @@
       padding-top: 65px;
       padding-bottom: 0px;
       margin-bottom: 0px;
+      line-height: 1.1;
     }
 
     a {
@@ -66,14 +90,27 @@
       color: black;
     }
 
+    a:hover {
+      text-decoration: underline;
+    }
+
     footer a {
-      margin-bottom: 0;
-      padding-bottom: 0;
+      margin-bottom: 10px;
+      vertical-align: bottom;
     }
 
     .foot {
-      display: inline-block;
+      display: table-cell;
       vertical-align: bottom;
+      margin-bottom: 0;
+      padding-bottom: 10px;
+    }
+
+    .wrap {
+      display: table;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
     }
 
   </style>
@@ -96,34 +133,36 @@
 <div id="members">
   <ul>
     <li><a href="#">Aliah&nbsp;Magdalena</a></li>
-    <li><a href="#">Alice&nbsp;Jung</a></li>
-    <li><a href="#">Amanda&nbsp;Stojanov</a></li>
+    <li><a href="http://www.alicejung.com/">Alice&nbsp;Jung</a></li>
+    <li><a href="http://amandastojanov.com">Amanda&nbsp;Stojanov</a></li>
     <li><a href="#">Amethyst&nbsp;Zhang</a></li>
-    <li><a href="#">Andrea&nbsp;Vitali</a></li>
-    <li><a href="#">Anisa&nbsp;Bashiri</a></li>
+    <li><a href="http://annamariandrea.itch.io/">Andrea&nbsp;Vitali</a></li>
+    <li><a href="http://cargocollective.com/anisabashiri">Anisa&nbsp;Bashiri</a></li>
     <li><a href="#">Devin&nbsp;Nicole</a></li>
-    <li><a href="#">Echo&nbsp;Theohar</a></li>
-    <li><a href="#">Evelyn&nbsp;Masso</a></li>
+    <li><a href="http://www.instagram.com/eskyet/">Echo&nbsp;Theohar</a></li>
+    <li><a href="http://www.outofambit.com/">Evelyn&nbsp;Masso</a></li>
     <li><a href="#">Hillary&nbsp;Rose&nbsp;Cleary</a></li>
-    <li><a href="#">Hsinyu&nbsp;Lin</a></li>
+    <li><a href="http://twitter.com/liniszero">Hsinyu&nbsp;Lin</a></li>
     <li><a href="http://www.katehollenbach.com">Kate&nbsp;Hollenbach</a></li>
-    <li><a href="#">Kate&nbsp;Parsons</a></li>
-    <li><a href="#">Lauren&nbsp;Mahon</a></li>
+    <li><a href="http://sheisanimagemaker.com">Kate&nbsp;Parsons</a></li>
+    <li><a href="http://angeleskelley.com/">Lauren&nbsp;Mahon</a></li>
     <li><a href="#">Lilyan&nbsp;Kris</a></li>
-    <li><a href="#">Saakshita&nbsp;Prabhakar</a></li>
+    <li><a href="http://www.saakshitaprabhakar.com/#/category/all">Saakshita&nbsp;Prabhakar</a></li>
     <li><a href="#">Sanglim&nbsp;Han</a></li>
     <li><a href="#">Sofia&nbsp;Staab-Gulbenkian</a></li>
-    <li><a href="#">Symrin&nbsp;Chawla</a></li>
+    <li><a href="http://www.symru.net">Symrin&nbsp;Chawla</a></li>
     <li><a href="#">Regina&nbsp;Napolitano</a></li>
-    <li><a href="#">Ruth&nbsp;Shaffer</a></li>
-    <li><a href="#">Yuehao&nbsp;Jiang</a></li>
+    <li><a href="http://ruthbabyy.tumblr.com">Ruth&nbsp;Shaffer</a></li>
+    <li><a href="http://www.yuehaojiang.com">Yuehao&nbsp;Jiang</a></li>
   </ul>
 </div>
 
 <footer>
-  <span class="foot"><a href="">Facebook</a></span>
-  <span class="foot blob"><a href="mailto:uclavoidlab@gmail.com">ucla voidlab @ gmail .com</a></span>
-  <span><a href="">Twitter</a></span>
+  <div class="wrap">
+    <div class="foot notblob"><a href="#">Facebook</a></div>
+    <div class="foot blob"><a href="mailto:uclavoidlab@gmail.com">ucla<br>voidlab<br>@<br>gmail<br>.com</a></div>
+    <div class="foot notblob"><a href="http://twitter.com/uclavoidLab">Twitter</a></div>
+  </div>
 </footer>
 
 </body>
